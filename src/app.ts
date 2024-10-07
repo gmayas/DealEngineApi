@@ -4,6 +4,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 // Routes
 import rootRoute from './routes/index';
+import flightboardRoute from './routes/flightboard'
 // settings
 const app: Application = express();
 app.set('port', process.env.PORT || 4000 );
@@ -15,5 +16,6 @@ app.use(express.json());
 app.use(cors())
 // Routes
 app.use('/', rootRoute);
+app.use('/api/flightboard', flightboardRoute);
 //
 export default app;
