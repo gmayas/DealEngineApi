@@ -1,9 +1,9 @@
 import { Router } from 'express';
 const router = Router();
 //
-import { getFligthForBoardingId } from '../controllers/flightboard.controller';
+import { getDestAirportsList, getFligthForBoardingId } from '../controllers/flightboard.controller';
 //
-// getFligthForBoardingId
 router.post('/getBoardingId', getFligthForBoardingId);
+router.get('/getDestAirportsList', getDestAirportsList);
 //
 export default router;
