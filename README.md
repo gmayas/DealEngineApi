@@ -28,7 +28,7 @@ En la carpeta database verá los Scripts SQL utilizados.
 
 ## Base de datos.
 
-Como podemos ver es una base de datos PostgreSQL, que enel cual está conformado por la tabla flightboard.
+Como podemos ver es una base de datos PostgreSQL, que en el cual está conformado por la tabla flightboard.
 
 ![](/imagenes/05.png)
 
