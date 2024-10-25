@@ -8,7 +8,7 @@ const connection = `postgresql://${process.env.User}:${process.env.Password}@${p
 const pool = new Pool({
   connectionString: connection,
   //connectionString: isProduction ? process.env.URI : connection,
-  ssl: false,
+  ssl: true,
 })
 
 export default pool;

@@ -13,6 +13,8 @@ CREATE DATABASE "DealDB"
 
 -- Name schema
 
+
+DROP SCHEMA deal
 CREATE SCHEMA deal
     AUTHORIZATION postgres;
 
