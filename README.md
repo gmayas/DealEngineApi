@@ -38,4 +38,18 @@ Esta función fue creada para generar número aleatorios y utilizarlos como Ids 
 
 ![](/imagenes/06.png)
 
+## Despliegue a producción.
+
+Del lado del despliegue tenemos una máquina virtual Linux y PM2 para la ejecución de la API, como así su dominio URL y certificado correspondiente.
+
+Despliegue en operación con URL y certificado.
+
+https://api.gmayasapp.site/
+
+![](/imagenes/07.png)
+
+PM2 monitoreando la ejecución de la aplicación en la máquina virtual Linux. 
+
+![](/imagenes/09.png)
+
 `© 2024 Copyright: GMayaS C:\>Desarrollo en Sistemas.`
